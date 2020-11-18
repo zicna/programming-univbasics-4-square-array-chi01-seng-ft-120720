@@ -3,6 +3,5 @@ def square_array(array)
   arr_new = []
   array.length.times { |index|
     arr_new.push(array[index] ** 2)
-  
   }
 end
